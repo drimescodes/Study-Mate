@@ -1,8 +1,12 @@
 @use './styles/Abstracts/functions';
 @use './styles/Abstracts/mixins';
 @use './styles/Abstracts/placeholders';
-@use './styles/Abstracts/utilities';
+@use './styles/Abstracts/utillities';
 @use './styles/Abstracts/variables';
 @use './styles/Base/reset';
 @use './styles/Base/typography';
-@use './styles/Pages/login';
+@use './styles/Layout/login';
+@use './styles/Pages/home';
+@use './styles/Pages/LandingPage';
+@use './styles/Layout/flex';
+@use './styles/Layout/grid';

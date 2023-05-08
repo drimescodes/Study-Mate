@@ -1,0 +1,44 @@
+@import './variables';
+@import './functions';
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.extralarge--text{
+    font-size: $extralarge--text;
+    &__blue{
+        color: $color--secondary--light;
+    }
+}
+.large--text{
+    font-size: $large--text;
+    &__blue{
+        color: $color--secondary--light;
+    }
+}
+.medium--text{
+    font-size: $medium--text;
+}
+.small--text{
+    font-size: $small--text;
+}
+.minute--text{
+    font-size: $minute--text;
+}
+.font--light{
+font-weight: 400;
+}
+.font--medium{
+font-weight: 500;
+}
+.font--bold{
+font-weight: 700;
+}
+.font--extrabold{
+font-weight: 900;
+}
+.width-half{
+width: widthChanger(2);
+}

@@ -1,0 +1,5 @@
+@import './variables';
+@function widthChanger($numberofparts){
+//  @return   width: (100/$numbeofparts)%;
+@return (100/$numberofparts)
+}
